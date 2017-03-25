@@ -1,4 +1,4 @@
-Zed :3, [24.03.17 23:07]
+
 #Dada una lista de numeros,mostrar el más grande, el más pequeño y el promedio.
 
 def buscarMenor(lista):
@@ -29,9 +29,9 @@ def main(listita):
     menor = buscarMenor(listita)
     mayor = buscarMayor(listita)
     promedio = sacarPromedio(listita)
-    print ("el numero menor es:", menor, \
-    ",el mayor es:", mayor, \
-    ",el promedio es:", promedio)
+    print ("el numero menor es: {}, \
+    el mayor es: {}, \
+    el promedio es: {}".format(menor,mayor,promedio))
     
     
 listita = [1,45,67,87,90,21,4,55,22,564]
