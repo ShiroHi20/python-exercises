@@ -1,19 +1,10 @@
 
 #Dada una lista de numeros,mostrar el más grande, el más pequeño y el promedio.
 
-def buscarMenor(lista):
-    return min(lista)
-
-def buscarMayor(lista):
-    return max(lista)   
-    
-def sacarPromedio(lista):
-    return sum(lista) / len(lista) 
-
-def main(listita):     
-    menor = buscarMenor(listita)
-    mayor = buscarMayor(listita)
-    promedio = sacarPromedio(listita)
+def main(lista):     
+    menor = min(lista)
+    mayor = max(lista)   
+    promedio = sum(lista) / len(lista) 
 
     print ("el numero menor es: {}\n \
     el mayor es: {}\n \
